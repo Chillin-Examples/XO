@@ -46,7 +46,7 @@
 		"max_team_commands": 1,
 		"max_agent_commands": 1,
 		"": "turnbased game handler configs",
-		"auto_change_turn": 1,
+		"auto_change_turn": true,
 		"auto_change_turn_sequence": ["X", "O"],
 		"": "my configs",
 		"cell_init_x": 10,
