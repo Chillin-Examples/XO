@@ -20,15 +20,14 @@
 	"gui": {
 		"host": "0.0.0.0",
 		"port": 5001,
+		"max_spectators": 3,
 		"save_replay": true,
 		"replay_dir": "replays",
 		"replay_filename": null,
-		"width": 442,
-		"height": 445,
-		"images": {
-			"Background": "images/Background.png",
-			"X": "images/X.png",
-			"O": "images/O.png"
+		"cycle_duration": 1,
+		"side_colors": {
+			"X": "#0000FF",
+			"O": "#FF0000"
 		}
 	},
 
@@ -47,10 +46,6 @@
 		"max_agent_commands": 1,
 		"": "turnbased game handler configs",
 		"auto_change_turn": true,
-		"auto_change_turn_sequence": ["X", "O"],
-		"": "my configs",
-		"cell_init_x": 10,
-		"cell_init_y": 15,
-		"cell_step": 155
+		"auto_change_turn_sequence": ["X", "O"]
 	}
 }
