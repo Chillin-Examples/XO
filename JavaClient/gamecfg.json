@@ -1,8 +1,5 @@
 {
 	"general": {
-		"command_files": [
-			"ks/commands"
-		],
 		"offline_mode": true
 	},
 
